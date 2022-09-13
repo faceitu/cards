@@ -1,49 +1,43 @@
-let peliculas = [{
+let pizzas = [{
         id: 1,
-        titulo: 'El señor de los anillos: La comunidad del anillo',
-        descripcion: 'Un hobbit de la Comarca y ocho compañeros emprenden un viaje para destruir el poderoso Anillo Único y salvar la Tierra Media del Señor Oscuro Sauron.',
-        director: 'Peter Jackson',
-        anio: 2001,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BMzgyNjdjOWMtMjAyYy00NzQ4LWIwYTQtZDk2ZDQzYWVlN2IwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX720_.jpg',
+        nombre: "Napolitana",
+        ingredientes: ["salsa de Tomate", " Morron", "Queso"],
+        precio: 500,
+        img: 'https://www.cocinayvino.com/wp-content/uploads/2018/08/pizza-napolitana-2-696x464.jpg'
     },
     {
         id: 2,
-        titulo: 'Volver al futuro',
-        descripcion: 'Marty McFly, un estudiante de secundaria de 17 años, es enviado accidentalmente treinta años al pasado en un DeLorean que viaja en el tiempo, inventado por su gran amigo, el excéntrico científico Doc Brown.',
-        director: 'Robert Zemeckis',
-        anio: 1985,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BYjQxMTIyMWUtMmMyMS00MGNmLTkzNzktOTM2YzMyZmRjYTYzXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg',
+        nombre: "4 Quesos",
+        ingredientes: ["Roquefort", "Provolone", "Queso Azul", "Queso sardo"],
+        precio: 1100,
+        img: 'https://www.recetin.com/wp-content/uploads/2012/01/pizza_cuatro_quesos.jpg.webp'
     },
     {
         id: 3,
-        titulo: 'Harry Potter y la piedra filosofal',
-        descripcion: 'Un niño huérfano se inscribe en una escuela de magia y hechicería, donde aprende la verdad sobre sí mismo, su familia y el terrible mal que acecha al mundo mágico.',
-        director: 'Chris Columbus',
-        anio: 2001,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BMzFiZjhjODUtMWJhZi00ZDk5LThjY2ItZjNjYjc0OGVjY2FmXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg',
+        nombre: "Especial",
+        ingredientes: ["Huevo", "lPanceta", "Morron", " Queso"],
+        precio: 1499,
+        img: 'https://cdn.batitienda.com/baticloud/images/product_picture_11d054e1a5c844cfbd731e73f37f77b6_637623167536803810_0_f.jpg'
     },
     {
         id: 4,
-        titulo: 'Spiderman',
-        descripcion: 'Al ser mordido por una araña modificada genéticamente, un chico de instituto tímido y estudioso adquiere habilidades de araña que al final tendrá que usar para luchar contra el mal como un superhéroe tras una tragedia familiar.',
-        director: 'Sam Raimin',
-        anio: 2002,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX511_.jpg',
+        nombre: "Calabreza",
+        ingredientes: ["Aceitunas", "Calabreza", "Queso"],
+        precio: 1300,
+        img: 'https://www.recetas-argentinas.com/base/stock/Recipe/43-image/43-image_web.jpg'
     },
     {
         id: 5,
-        titulo: 'Fight Club',
-        descripcion: 'Un oficinista insomne y un desentendido fabricante de jabones forman un club de lucha clandestino que se convierte en mucho más.',
-        director: 'David Fincher',
-        anio: 1999,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BNzJhZjg3MWQtNDk1Zi00ZjMzLWI1ZjUtNmE2MDg0ZDU4MzZlXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg',
+        nombre: "J y Q",
+        ingredientes: ["Jamon", "Queso", "Aceitunas"],
+        precio: 990,
+        img: 'https://i0.wp.com/irecetasfaciles.com/wp-content/uploads/2019/08/pizza-de-jamon-queso-y-tocino.jpg?fit=900%2C574&ssl=1'
     },
     {
         id: 6,
-        titulo: 'El Origen',
-        descripcion: 'A un ladrón que roba secretos corporativos a través del uso de la tecnología de compartir sueños, se le da la tarea de implantar una idea en la mente de un jefe de una gran empresa.',
-        director: 'Christopher "EL REY" Nolan',
-        anio: 2010,
-        imagen: 'https://m.media-amazon.com/images/M/MV5BMTUzMzUyOTktNmYyNS00YTA1LWIxNmQtMGIzZDYxZGI3OTliXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg',
-    },
+        nombre: "Cantimpalo",
+        ingredientes: ["Cantimpalo", "Queso", "Aceitunas"],
+        precio: 1400,
+        img: 'https://lh3.googleusercontent.com/p/AF1QipM3zTNnZCzRc46u0syNvu7prPdIFggnFZg4RQ7-=w600-h0'
+    }
 ];

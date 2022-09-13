@@ -4,63 +4,43 @@
             box-sizing: border-box;
         }
         
-        body {
-            background-image: url('./fondo_peli.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
+        body {}
         
         .container {
             height: 100vh;
-        }
-        
-        .container2 {
-            height: 100vh;
             display: flex;
-            align-items: flex-start;
-            gap: 40px;
-            max-width: 400px;
-            align-self: flex-start;
-        }
-        
-        .movie_card {
-            display: flex;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             flex-direction: column;
-            justify-content: space-around;
-            background-color: aliceblue;
-            width: 40vw;
-            height: 50vh;
-            border-radius: 20px;
-            margin-left: 50px;
-            margin-top: 30px;
-            background: rgba( 2, 10, 21, 0.2);
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-            backdrop-filter: blur( 0px);
-            -webkit-backdrop-filter: blur( 0px);
-            border-radius: 10px;
+            background-color: antiquewhite;
         }
         
         .img_container {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100%;
-            width: 90%;
-            border-radius: 6px;
+            height: 60%;
+            width: 100%;
+            border-bottom: 2px white solid;
         }
         
         .movie_img {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
+            max-width: 500px;
+            min-width: 400px;
             border-radius: 6px;
             height: 60%;
-            width: 100%;
-            background: rgba( 8, 65, 171, 0.25);
+            width: 40%;
+            background: rgba( 232, 0, 0, 0.65);
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-            backdrop-filter: blur( 18px);
-            -webkit-backdrop-filter: blur( 18px);
+            backdrop-filter: blur( 20px);
+            -webkit-backdrop-filter: blur( 20px);
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18);
         }
         
         .img {
@@ -73,30 +53,65 @@
         
         .movie_info {
             position: relative;
-            height: 40%;
+            height: 50%;
             width: 100%;
-        }
-        
-        .barra_anio {
-            z-index: -1;
-            position: absolute;
-            right: -16px;
-            width: 380px;
-            height: 38px;
-            border-radius: 10px;
-            background: rgba( 140, 187, 250, 0.65);
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
-            backdrop-filter: blur( 11px);
-            -webkit-backdrop-filter: blur( 11px);
-            border-radius: 10px;
-            border: 1px solid rgba( 255, 255, 255, 0.18);
         }
         
         .titulo {
             text-align: center;
             margin-bottom: 30px;
+            margin-top: 20px;
+            font-size: 3.2rem;
+            color: azure;
         }
         
         .h2_info {
             margin-top: 18px;
+            color: azure;
+            text-align: center;
+        }
+        
+        .input {
+            margin-top: 20px;
+            padding: 8px;
+            width: 36%;
+            background: rgba(238, 194, 112, 0.789);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+            backdrop-filter: blur( 4px);
+            -webkit-backdrop-filter: blur( 4px);
+            border-radius: 10px;
+            max-width: 500px;
+            min-width: 400px;
+        }
+        
+        .btn_search {
+            padding: 4px;
+            margin-top: 4px;
+            width: 36%;
+            background-color: rgb(97, 55, 3);
+            color: whitesmoke;
+            border-radius: 10px;
+            max-width: 500px;
+            min-width: 400px;
+        }
+        
+        b {
+            font-size: 2.2rem;
+            -webkit-text-stroke: 1px black;
+            color: transparent;
+            color: brown;
+        }
+        
+        .add_form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px white solid;
+            border-radius: 10px;
+            padding: 40px;
+        }
+        
+        .visibility {
+            display: none;
         }
